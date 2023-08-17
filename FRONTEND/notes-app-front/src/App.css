@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.app {
+  text-align: center;
+}
+
+/* AllNotes */
+.all-notes-div-map {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .6em auto;
+  width: 60%;
+}
+
+.all-notes-div-map button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+/* Create note */
+.create-note-div {
+  margin: 0 auto;
+  padding: 1em 0;
+  width: 40%;
+}
+.create-note-div form {
+  margin: 1em auto;
+  text-align: left;
+}
+.create-note-div form input {
+  border: none;
+  border-bottom: 1px solid #333;
+  margin-bottom: .5em;
+  outline: none;
+  padding: .5em;
+  width: 100%;
+}
+.create-note-div form input::placeholder {
+  color: #a5a4a4;
+}
+
+.create-note-div form button {
+  background-color: rgb(67, 149, 182);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
